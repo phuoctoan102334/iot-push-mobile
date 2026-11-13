@@ -1,0 +1,30 @@
+# ---- Flutter / Dart ----
+.dart_tool/
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+*.class
+*.log
+.DS_Store
+
+# ---- Android / Gradle ----
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---- Bí mật: KHÔNG commit ----
+google-services.json
+**/google-services.json
+.env
